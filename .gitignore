@@ -6,4 +6,7 @@ crash.*.log
 *.tfvars
 *.tfvars.json
 *.tfplan
+
+# Bloquear estos archivos específicos
 info.txt
+Terraform/terraform.exe
