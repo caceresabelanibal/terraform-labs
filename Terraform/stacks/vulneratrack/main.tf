@@ -5,7 +5,7 @@ module "app" {
   instance_type = var.instance_type
 }
 
-output "public_ip" { value = module.app.public_ip }
+output "public_ip"  { value = module.app.public_ip }
 output "public_dns" { value = module.app.public_dns }
 output "app_url" {
   value = "http://${module.app.public_dns}"

@@ -1,5 +1,5 @@
 module "app" {
-  source = "../../modules/ec2-docker"
+  source        = "../../modules/ec2-docker"
   name          = "svigilant"
   image_uri     = var.image_uri
   instance_type = var.instance_type
